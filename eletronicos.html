@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Eletrônicos · Piá Importados</title>
+  <meta name="description" content="iPad, Apple Pencil, AirPods, PlayStation 5 e caixas JBL na Piá Importados, Rua São Paulo, 818, Centro de BH. Entrega em BH com pagamento na entrega.">
+  <meta name="theme-color" content="#f5f5f7">
+  <link rel="icon" href="assets/brand/favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/brand/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/brand/apple-touch-icon-180.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <svg class="sr-only" aria-hidden="true" focusable="false">
+    <filter id="refracao" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.008 0.012" numOctaves="2" seed="7" result="ruido"/>
+      <feGaussianBlur in="ruido" stdDeviation="2" result="ruidoSuave"/>
+      <feDisplacementMap in="SourceGraphic" in2="ruidoSuave" scale="18" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </svg>
+
+  <!-- @topo -->
+  <header class="topo" data-topo>
+    <nav class="topo__barra vidro vidro--claro vidro--refrata" aria-label="Principal">
+      <a class="topo__logo" href="index.html" aria-label="Piá Importados, página inicial">
+        <img src="assets/brand/logo-horizontal-marinho.svg" alt="Piá Importados" width="170" height="44">
+      </a>
+
+      <ul class="menu" data-menu>
+        <li class="menu__item"><a class="menu__link" href="index.html" data-pagina="index">Início</a></li>
+        <li class="menu__item menu__item--sub">
+          <a class="menu__link" href="iphone.html" data-pagina="iphone">Celulares</a>
+          <button class="menu__abrir" type="button" aria-expanded="false" aria-controls="sub-celulares" aria-label="Mostrar seções de Celulares" data-gatilho><span class="menu__seta" aria-hidden="true"></span></button>
+          <div class="submenu vidro vidro--claro" id="sub-celulares" data-submenu>
+            <p class="submenu__titulo">Em Celulares</p>
+            <a href="iphone.html#iphone-18-pro">iPhone 18 Pro e Pro Max<small>Lançamento, quatro cores</small></a>
+            <a href="iphone.html#linha-17">Linha 17 e anteriores<small>Lacrados</small></a>
+            <a href="iphone.html#seminovos">Seminovos<small>Condições informadas antes da compra</small></a>
+            <a href="iphone.html#troca">Troca do seu usado<small>Seu iPhone como parte do pagamento</small></a>
+          </div>
+        </li>
+        <li class="menu__item menu__item--sub">
+          <a class="menu__link" href="eletronicos.html" data-pagina="eletronicos">Eletrônicos</a>
+          <button class="menu__abrir" type="button" aria-expanded="false" aria-controls="sub-eletronicos" aria-label="Mostrar seções de Eletrônicos" data-gatilho><span class="menu__seta" aria-hidden="true"></span></button>
+          <div class="submenu vidro vidro--claro" id="sub-eletronicos" data-submenu>
+            <p class="submenu__titulo">Em Eletrônicos</p>
+            <a href="eletronicos.html#ipad">iPad e Apple Pencil</a>
+            <a href="eletronicos.html#airpods">AirPods</a>
+            <a href="eletronicos.html#playstation">PlayStation 5</a>
+            <a href="eletronicos.html#jbl">Caixas JBL</a>
+          </div>
+        </li>
+        <li class="menu__item menu__item--sub">
+          <a class="menu__link" href="perfumes.html" data-pagina="perfumes">Perfumes</a>
+          <button class="menu__abrir" type="button" aria-expanded="false" aria-controls="sub-perfumes" aria-label="Mostrar seções de Perfumes" data-gatilho><span class="menu__seta" aria-hidden="true"></span></button>
+          <div class="submenu vidro vidro--claro" id="sub-perfumes" data-submenu>
+            <p class="submenu__titulo">Em Perfumes</p>
+            <a href="perfumes.html#femininos">Femininos</a>
+            <a href="perfumes.html#masculinos">Masculinos</a>
+            <a href="perfumes.html#como-comprar">Como comprar</a>
+          </div>
+        </li>
+        <li class="menu__item"><a class="menu__link" href="index.html#loja">A loja</a></li>
+      </ul>
+
+      <a class="botao botao--azul botao--p topo__cta vidro" href="https://wa.me/5531987795212" data-wa="Olá! Vim pelo site da Piá e quero falar com vocês." data-wa-origem="menu">WhatsApp</a>
+      <button class="topo__abrir" type="button" aria-expanded="false" aria-controls="menu-celular" data-abrir-menu>
+        <span class="topo__abrir-texto">Menu</span><span class="topo__hamburguer" aria-hidden="true"></span>
+      </button>
+    </nav>
+
+    <div class="gaveta vidro vidro--claro" id="menu-celular" data-gaveta hidden>
+      <a class="gaveta__pagina" href="index.html" data-pagina="index">Início</a>
+      <div class="gaveta__grupo">
+        <a class="gaveta__pagina" href="iphone.html" data-pagina="iphone">Celulares <span aria-hidden="true">›</span></a>
+        <a href="iphone.html#iphone-18-pro">iPhone 18 Pro e Pro Max</a>
+        <a href="iphone.html#linha-17">Linha 17 e anteriores</a>
+        <a href="iphone.html#seminovos">Seminovos</a>
+        <a href="iphone.html#troca">Troca do seu usado</a>
+      </div>
+      <div class="gaveta__grupo">
+        <a class="gaveta__pagina" href="eletronicos.html" data-pagina="eletronicos">Eletrônicos <span aria-hidden="true">›</span></a>
+        <a href="eletronicos.html#ipad">iPad e Apple Pencil</a>
+        <a href="eletronicos.html#airpods">AirPods</a>
+        <a href="eletronicos.html#playstation">PlayStation 5</a>
+        <a href="eletronicos.html#jbl">Caixas JBL</a>
+      </div>
+      <div class="gaveta__grupo">
+        <a class="gaveta__pagina" href="perfumes.html" data-pagina="perfumes">Perfumes <span aria-hidden="true">›</span></a>
+        <a href="perfumes.html#femininos">Femininos</a>
+        <a href="perfumes.html#masculinos">Masculinos</a>
+        <a href="perfumes.html#como-comprar">Como comprar</a>
+      </div>
+      <a class="gaveta__pagina" href="index.html#avaliacoes">Avaliações</a>
+      <a class="gaveta__pagina" href="index.html#loja">A loja e o horário</a>
+      <a class="botao botao--azul gaveta__cta vidro" href="https://wa.me/5531987795212" data-wa="Olá! Vim pelo site da Piá e quero falar com vocês." data-wa-origem="menu-celular">Falar no WhatsApp</a>
+    </div>
+  </header>
+
+  <nav class="abas vidro vidro--claro vidro--refrata" aria-label="Abas do site">
+    <a class="abas__item" href="index.html" data-pagina="index">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg>
+      <span>Início</span>
+    </a>
+    <a class="abas__item" href="iphone.html" data-pagina="iphone">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.6"/><path d="M10.5 5h3"/></svg>
+      <span>Celulares</span>
+    </a>
+    <a class="abas__item" href="eletronicos.html" data-pagina="eletronicos">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 15.5V12a8 8 0 0 1 16 0v3.5"/><rect x="3.5" y="14" width="4.5" height="6.5" rx="1.6"/><rect x="16" y="14" width="4.5" height="6.5" rx="1.6"/></svg>
+      <span>Eletrônicos</span>
+    </a>
+    <a class="abas__item" href="perfumes.html" data-pagina="perfumes">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="9" width="12" height="12" rx="3"/><path d="M10 9V6.5h4V9M9.5 4h5"/></svg>
+      <span>Perfumes</span>
+    </a>
+    <a class="abas__item abas__item--whats" href="https://wa.me/5531987795212" data-wa="Olá! Vim pelo site da Piá e quero falar com vocês." data-wa-origem="abas">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M9 9.2c.2 2.6 2.9 5.3 5.6 5.6l1-1.3-1.8-.9-.8.8c-1-.4-2-1.4-2.4-2.4l.8-.8-.9-1.8z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+  </nav>
+  <!-- /@topo -->
+
+  <main id="conteudo">
+    <section class="pagina-topo largura" aria-labelledby="pg-titulo">
+      <nav class="caminho" aria-label="Você está em"><a href="index.html">Início</a><span aria-hidden="true">›</span><span aria-current="page">Eletrônicos</span></nav>
+        <p class="eyebrow" data-revelar>Eletrônicos</p>
+      <h1 id="pg-titulo" class="hero__titulo" data-revelar>Além do iPhone.</h1>
+      <p class="pagina-topo__lead" data-revelar>iPad, AirPods, PlayStation 5 e caixas JBL, com o mesmo atendimento e a mesma entrega dos iPhones.</p>
+    </section>
+
+    <nav class="subnav vidro vidro--claro" aria-label="Seções desta página" data-subnav>
+      <span class="subnav__rotulo" aria-hidden="true">Nesta página</span>
+      <a href="#ipad" aria-current="true">iPad e Apple Pencil</a>
+      <a href="#airpods">AirPods</a>
+      <a href="#playstation">PlayStation 5</a>
+      <a href="#jbl">JBL</a>
+    </nav>
+
+    <section class="bloco bloco--branco" id="ipad" aria-labelledby="t-ipad">
+      <div class="largura bloco__grade">
+        <div class="bloco__imagem bloco__imagem--paisagem" data-revelar>
+          <img src="assets/img/ipad-1600.webp" width="1600" height="900" alt="Dois iPads lado a lado" loading="lazy" data-parallax>
+        </div>
+        <div class="bloco__texto">
+          <p class="eyebrow" data-revelar>iPad</p>
+          <h2 id="t-ipad" class="titulo-2" data-revelar>iPad e Apple Pencil.</h2>
+          <p data-revelar>Para estudar, desenhar ou trabalhar. Pergunte pelos modelos disponíveis e pela Apple Pencil compatível com cada um.</p>
+          <blockquote class="citacao" data-revelar>"Fiz o upgrade do meu ipad antigo para um ipad 11 e amei demais."<cite>bela mendes, avaliação no Google</cite></blockquote>
+          <a class="botao botao--azul vidro" href="https://wa.me/5531987795212" data-wa="Olá! Vim pelo site e quero saber de iPad e Apple Pencil." data-wa-origem="ipad" data-revelar>Consultar iPad</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloco" id="airpods" aria-labelledby="t-airpods">
+      <div class="largura bloco__grade bloco__grade--inverso">
+        <div class="bloco__imagem bloco__imagem--paisagem" data-revelar>
+          <img src="assets/img/airpods-1600.webp" width="1600" height="1067" alt="AirPods Pro no estojo branco" loading="lazy" data-parallax>
+        </div>
+        <div class="bloco__texto">
+          <p class="eyebrow" data-revelar>Áudio</p>
+          <h2 id="t-airpods" class="titulo-2" data-revelar>AirPods.</h2>
+          <p data-revelar>Para completar o iPhone novo. Pergunte pelos modelos disponíveis e leve junto na mesma entrega.</p>
+          <a class="botao botao--azul vidro" href="https://wa.me/5531987795212" data-wa="Olá! Vim pelo site e quero saber dos AirPods." data-wa-origem="airpods" data-revelar>Consultar AirPods</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloco bloco--branco" id="playstation" aria-labelledby="t-ps5">
+      <div class="largura bloco__grade">
+        <div class="bloco__imagem bloco__imagem--retrato" data-revelar>
+          <img src="assets/img/ps5-900.webp" width="900" height="1283" alt="Console PlayStation 5 branco com controle" loading="lazy" data-parallax>
+        </div>
+        <div class="bloco__texto">
+          <p class="eyebrow" data-revelar>Games</p>
+          <h2 id="t-ps5" class="titulo-2" data-revelar>PlayStation 5.</h2>
+          <p data-revelar>Na estante da loja está o PS5 Slim no pacote com Astro Bot e Gran Turismo 7. Outras versões e a disponibilidade são confirmadas no atendimento.</p>
+          <a class="botao botao--azul vidro" href="https://wa.me/5531987795212" data-wa="Olá! Vim pelo site e quero saber do PlayStation 5." data-wa-origem="ps5" data-revelar>Consultar PlayStation 5</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bloco" id="jbl" aria-labelledby="t-jbl">
+      <div class="largura bloco__grade bloco__grade--inverso">
+        <div class="bloco__imagem bloco__imagem--paisagem" data-revelar>
+          <img src="assets/img/estante-produtos-1280.webp" width="1280" height="960" alt="Estante da loja com caixa JBL Charge 5, PlayStation 5, iPhones e perfumes" loading="lazy" data-parallax>
+        </div>
+        <div class="bloco__texto">
+          <p class="eyebrow" data-revelar>Som</p>
+          <h2 id="t-jbl" class="titulo-2" data-revelar>Caixas JBL.</h2>
+          <p data-revelar>Como a JBL Charge 5, que está na estante da loja. Pergunte pelos modelos e cores disponíveis.</p>
+          <a class="botao botao--azul vidro" href="https://wa.me/5531987795212" data-wa="Olá! Vim pelo site e quero saber das caixas JBL." data-wa-origem="jbl" data-revelar>Consultar JBL</a>
+        </div>
+      </div>
+    </section>
+    <section class="outras" aria-labelledby="outras-titulo">
+      <div class="largura">
+        <h2 id="outras-titulo" class="atalhos__titulo">Continue navegando</h2>
+        <div class="atalhos__lista">
+          <a class="atalho vidro" href="iphone.html"><img class="contem" src="assets/img/iphone18-glacier-800.webp" width="64" height="64" alt="" loading="lazy"><div><strong>Celulares</strong><span>iPhone 18 Pro, linha 17, seminovos ›</span></div></a>
+          <a class="atalho vidro" href="perfumes.html"><img src="assets/img/perfume-la-vie-900.webp" width="64" height="64" alt="" loading="lazy"><div><strong>Perfumes</strong><span>Femininos e masculinos ›</span></div></a>
+          <a class="atalho vidro" href="index.html#loja"><img src="assets/img/loja-estante-900.webp" width="64" height="64" alt="" loading="lazy"><div><strong>A loja</strong><span>Endereço e horário ›</span></div></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- @rodape -->
+  <footer class="rodape">
+    <div class="largura">
+      <div class="rodape__topo">
+        <img src="assets/brand/logo-horizontal-creme.svg" width="170" height="44" alt="Piá Importados" loading="lazy">
+        <div class="rodape__colunas">
+          <div>
+            <h3>Loja</h3>
+            <p>Rua São Paulo, 818, Centro<br>Belo Horizonte, MG · 30170-131</p>
+            <p>Seg a sex 9h às 18h · Sáb 9h às 14h</p>
+          </div>
+          <div>
+            <h3>Contato</h3>
+            <p><a href="https://wa.me/5531987795212" data-wa="Olá! Vim pelo site da Piá." data-wa-origem="rodape">WhatsApp <span data-whatsapp-exibicao>(31) 98779-5212</span></a></p>
+            <p><a href="https://www.instagram.com/piaimportadosbhz/" target="_blank" rel="noopener">Instagram @piaimportadosbhz</a></p>
+          </div>
+          <div>
+            <h3>Páginas</h3>
+            <p><a href="iphone.html">Celulares</a></p>
+            <p><a href="eletronicos.html">Eletrônicos</a></p>
+            <p><a href="perfumes.html">Perfumes</a></p>
+            <p><a href="privacidade.html">Política de privacidade</a></p>
+            <p><button class="rodape__link" type="button" data-abrir-cookies>Preferências de cookies</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="rodape__legal">
+        <p><span data-razao-social>36.832.176 Matheus Henrique Morais Miranda</span> · CNPJ <span data-cnpj>36.832.176/0001-57</span> · Rua São Paulo, 818, Centro, Belo Horizonte, MG</p>
+        <p>Apple, iPhone, iPad, AirPods e Apple Pencil são marcas da Apple Inc., registradas nos EUA e em outros países. PlayStation é marca da Sony Interactive Entertainment. JBL é marca da Harman International. As marcas de perfume citadas pertencem aos seus titulares. A Piá Importados é uma revendedora independente, sem vínculo com essas empresas.</p>
+        <p>Imagens meramente ilustrativas. Preço, estoque e condições são confirmados no atendimento. Fotos de produto: ubeyonroad, insung yoon, Daniel Romero, Nik, Emily Wang, Eve Maier, Simply Mersah e Fulvio Ciccolo, via Unsplash. Fotos da loja: Piá Importados.</p>
+        <p>© <span data-ano>2026</span> Piá Importados</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="flutuante vidro vidro--claro" href="https://wa.me/5531987795212" data-wa="Olá! Vim pelo site da Piá e quero falar com vocês." data-wa-origem="flutuante" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.5c.1.2 1.6 2.5 4 3.5 1.5.6 2.1.7 2.8.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.4-.3Z"/></svg>
+    <span class="flutuante__texto">WhatsApp</span>
+  </a>
+
+  <div class="cookies vidro vidro--claro" data-cookies role="dialog" aria-live="polite" aria-label="Aviso de cookies" hidden>
+    <p>Usamos cookies de medição (Google Analytics e Meta) apenas se você permitir. Eles ajudam a entender quais anúncios trazem visitas. <a href="privacidade.html#cookies">Saiba mais</a></p>
+    <div class="cookies__acoes">
+      <button class="botao botao--contorno botao--p vidro" type="button" data-cookies-recusar>Recusar</button>
+      <button class="botao botao--azul botao--p vidro" type="button" data-cookies-aceitar>Aceitar</button>
+    </div>
+  </div>
+  <!-- /@rodape -->
+
+  <script src="assets/js/config.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/CustomEase.min.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

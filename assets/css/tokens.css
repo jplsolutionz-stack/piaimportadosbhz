@@ -1,0 +1,83 @@
+/* Piá Importados: tokens da identidade visual (v1.0, out/2026)
+   Fonte única de cores, tipografia, espaçamento, vidro e movimento.
+   O site importa este arquivo; qualquer peça nova deve partir daqui. */
+
+:root {
+  /* Cor: marca (tirada da sacola e do cartão de entrega) */
+  --azul-pia: #18224a;        /* azul-marinho da sacola */
+  --azul-noite: #0b1230;      /* fundo das seções escuras */
+  --azul-tinta: #22306a;      /* hover e estados do azul */
+  --creme-pia: #e9dcc4;       /* creme do brasão impresso */
+  --creme-claro: #f6f1e7;     /* fundo editorial (equipe, perfumes) */
+
+  /* Cor: neutros de vitrine (base clara estilo Apple) */
+  --papel: #f5f5f7;           /* fundo claro principal */
+  --branco: #ffffff;
+  --grafite: #1d1d1f;         /* texto principal no claro */
+  --grafite-2: #6e6e73;       /* texto secundário no claro */
+  --linha: rgba(29, 29, 31, 0.1);
+
+  /* Cor: texto no escuro */
+  --texto-claro: #f5f5f7;
+  --texto-claro-2: rgba(245, 245, 247, 0.68);
+  --linha-clara: rgba(255, 255, 255, 0.14);
+
+  /* Cor: funcional */
+  --estrela: #f5b301;         /* só nas estrelas de avaliação */
+  --whatsapp: #1f8f4e;        /* só no ícone do WhatsApp, nunca em blocos */
+  --foco: #4c7dff;            /* anel de foco acessível */
+
+  /* Cores dos iPhone 18 Pro (rótulos e swatches) */
+  --ip-burgundy: #4a1420;
+  --ip-glacier: #c9dbe8;
+  --ip-preto: #1d1e21;
+  --ip-prata: #d9dadd;
+
+  /* Tipografia: San Francisco no ecossistema Apple, Inter como reserva aberta */
+  --fonte: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", "Helvetica Neue", Arial, sans-serif;
+  --fonte-editorial: ui-serif, "New York", "Iowan Old Style", "Times New Roman", serif; /* só na página de perfumes */
+
+  --t-hero: clamp(2.75rem, 6.2vw, 5.75rem);     /* 44 → 92px */
+  --t-h2: clamp(2rem, 4.6vw, 3.75rem);         /* 32 → 60px */
+  --t-h3: clamp(1.375rem, 2.2vw, 1.75rem);     /* 22 → 28px */
+  --t-lead: clamp(1.125rem, 1.6vw, 1.375rem);  /* 18 → 22px */
+  --t-corpo: 1.0625rem;                        /* 17px, o corpo da apple.com */
+  --t-pequeno: 0.875rem;                       /* 14px */
+  --t-eyebrow: 0.8125rem;                      /* 13px, caixa-alta espaçada */
+
+  --peso-titulo: 600;
+  --peso-corpo: 400;
+  --tracking-titulo: -0.022em;
+  --tracking-eyebrow: 0.14em;
+
+  /* Espaço (base 4) */
+  --e-1: 4px; --e-2: 8px; --e-3: 12px; --e-4: 16px; --e-5: 24px;
+  --e-6: 32px; --e-7: 48px; --e-8: 64px; --e-9: 96px; --e-10: 144px;
+  --gutter: clamp(16px, 4vw, 48px);
+  --largura: 1200px;
+  --leitura: 640px;
+
+  /* Forma */
+  --raio-s: 12px;
+  --raio-m: 22px;
+  --raio-l: 32px;
+  --raio-pill: 999px;
+
+  /* Liquid Glass */
+  --vidro-claro-fundo: rgba(255, 255, 255, 0.56);
+  --vidro-claro-borda: rgba(255, 255, 255, 0.7);
+  --vidro-escuro-fundo: rgba(24, 34, 74, 0.38);
+  --vidro-escuro-borda: rgba(255, 255, 255, 0.18);
+  --vidro-blur: 20px;
+  --vidro-saturacao: 180%;
+  --vidro-brilho: inset 0 1px 0 rgba(255, 255, 255, 0.75), inset 0 -1px 0 rgba(255, 255, 255, 0.12);
+  --vidro-sombra: 0 10px 30px rgba(11, 18, 48, 0.14);
+
+  /* Movimento (curvas da linha Emil Kowalski) */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+  --d-press: 140ms;
+  --d-ui: 200ms;
+  --d-revelar: 700ms;
+}

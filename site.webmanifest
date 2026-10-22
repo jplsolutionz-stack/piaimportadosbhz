@@ -1,0 +1,14 @@
+{
+  "name": "Piá Importados",
+  "short_name": "Piá",
+  "description": "iPhone, Apple, games e perfumes importados no Centro de BH.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#18224A",
+  "theme_color": "#18224A",
+  "icons": [
+    { "src": "assets/brand/icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/brand/icone-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/brand/icone-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
